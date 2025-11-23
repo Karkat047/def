@@ -1,0 +1,518 @@
+footer {
+    max-width: 1920px;
+    width: 100%;
+
+    background-color: var(--color-dark-gray);
+    color: var(--color-white);
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
+}
+
+.footer_menu_list {
+    display: none;
+}
+
+.footer_location_section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer_logo {
+    content: url("../images/footer-logo.svg");
+}
+
+.footer_location_button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    color: var(--color-white);
+    /*toDo: вывести в константу*/
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.footer_phone_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    color: var(--color-white);
+}
+
+.footer_phone {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.footer_phone_description {
+    width: 203px;
+
+    font-size: var(--font-caption-size);
+    font-weight: var(--font-caption-weight);
+    line-height: var(--font-caption-line-height);
+}
+
+.footer_menu_section {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.footer_reviews_container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 560px;
+    width: 100%;
+}
+
+.footer_menu_company_name_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_menu_company_name_description {
+    max-width: 293px;
+
+    font-size: var(--font-caption-size);
+    font-weight: var(--font-caption-weight);
+    line-height: var(--font-caption-line-height);
+}
+
+.footer_reviews {
+    display: flex;
+    gap: 17.67px;
+    flex-wrap: wrap;
+}
+
+.footer_review {
+    display: flex;
+    flex-direction: column;
+    gap: 8.83px;
+    width: 174.88958740234375px;
+    border-radius: 8.83px;
+    padding: 17.67px 0 17.67px 17.67px;
+
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: var(--font-caption-size);
+    font-weight: var(--font-caption-weight);
+    line-height: var(--font-caption-line-height);
+}
+
+.footer_review:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.footer_review_icon_container {
+    display: flex;
+    align-items: center;
+    gap: 7.07px;
+}
+
+.footer_review_icon_yandex {
+    content: url("../images/new-icons/social/yandex-footer-review.svg");
+}
+
+.footer_review_icon_2gis {
+    content: url("../images/new-icons/social/2gis-footer-review.svg");
+}
+
+.footer_review_icon_flamp {
+    content: url("../images/new-icons/social/flamp-footer-review.svg");
+}
+
+.footer_review_rating_container {
+    display: flex;
+    align-items: center;
+    gap: 6.18px;
+}
+
+.footer_review_star {
+    content: url("../images/new-icons/star.svg");
+}
+
+.footer_review_current_rating {
+    font-size: var(--font-button-size);
+    font-weight: var(--font-button-weight);
+    line-height: var(--font-button-line-height);
+}
+
+.footer_review_rating {
+    display: flex;
+    align-items: end;
+}
+
+.footer_menu_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_buttons_container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 326px;
+    width: 100%;
+}
+
+.footer_consultation_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_consultation_buttons button {
+    width: 100%;
+}
+
+.footer_social_buttons_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_social_chat_buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.footer_social_chat_whatsapp_button,
+.footer_social_chat_telegram_button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+
+.footer_social_chat_whatsapp_button {
+    background-color: #48C95F;
+}
+
+.footer_social_chat_telegram_button {
+    background-color: #2F89CE;
+}
+
+.footer_social_chat_whatsapp_icon {
+    content: url("../images/new-icons/social/whatsapp-button.svg");
+}
+
+.footer_social_chat_telegram_icon {
+    content: url("../images/new-icons/social/telegram-button.svg");
+}
+
+.footer_social_chat_description {
+    font-size: var(--font-button-size);
+    font-weight: var(--font-button-weight);
+    line-height: var(--font-button-line-height);
+}
+
+.footer_social_buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.footer_social_buttons img {
+    width: 34.31578826904297px;
+    height: 34.31578826904297px;
+}
+
+.footer_company_details_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_company_details_left_side {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer_company_details_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_company_details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 489px;
+
+    font-size: var(--font-caption-size);
+    font-weight: var(--font-caption-weight);
+    line-height: var(--font-caption-line-height);
+}
+
+.footer_company_details span {
+    min-width: 173px;
+}
+
+.footer_payment_types_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_payment_types {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_payment_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92px;
+    height: 60px;
+    border: 1px solid var(--color-white);
+    border-radius: 10px;
+}
+
+.footer_payment_mir_icon {
+    content: url("../images/new-icons/mir.svg");
+}
+
+.footer_payment_visa_icon {
+    content: url("../images/new-icons/visa.svg");
+}
+
+.footer_payment_master_card_icon {
+    content: url("../images/new-icons/master-card.svg");
+}
+
+.footer_payment_maestro_icon {
+    content: url("../images/new-icons/maestro.svg");
+}
+
+.footer_payment_union_pay_icon {
+    content: url("../images/new-icons/union-pay.svg");
+}
+
+.footer_company_details_right_side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_company_addition_locations {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer_company_addition_location_address {
+    font-size: var(--font-caption-size);
+    font-weight: var(--font-caption-weight);
+    line-height: var(--font-caption-line-height);
+}
+
+.footer_descriptions_section {
+    display: flex;
+    gap: 110px;
+    max-width: 1160px;
+    width: 100%;
+
+    font-size: var(--font-caption-size);
+    font-weight: var(--font-caption-weight);
+    line-height: var(--font-caption-line-height);
+}
+
+.footer_descriptions_left_side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 489px;
+}
+
+.footer_descriptions_right_side {
+    max-width: 561px;
+    width: 100%;
+}
+
+.footer_development_studio_section {
+    display: flex;
+    gap: 110px;
+    padding: 20px 0;
+
+    font-size: var(--font-caption-size);
+    font-weight: var(--font-caption-weight);
+    line-height: var(--font-caption-line-height);
+}
+
+.footer_development_studio_site {
+    max-width: 490px;
+    width: 100%;
+}
+
+.footer_development_studio_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media (max-width: 1023px) {
+    .footer_container {
+        padding: 30px 16px;
+    }
+
+    .footer_location_section {
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .footer_logo {
+        width: 103px;
+        height: 40px;
+    }
+
+    .footer_location_button span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .footer_location_button_caption {
+        display: none;
+    }
+
+    .footer_menu_section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer_reviews_container {
+        display: none;
+    }
+
+    .footer_menu_container {
+        min-height: 322px;
+    }
+
+    .footer_social_chat_buttons,
+    .footer_social_chat_description {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .footer_social_chat_whatsapp_button,
+    .footer_social_chat_telegram_button {
+        gap: 4px;
+        padding: 4px 6px;
+    }
+
+    .footer_social_buttons {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .footer_company_details_section,
+    .footer_menu_section + .dash {
+        display: none;
+    }
+
+    .footer_descriptions_section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_descriptions_left_side,
+    .footer_descriptions_right_side {
+        width: 100%;
+    }
+
+    .footer_development_studio_section {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        gap: 18px;
+    }
+
+    .footer_development_studio_container {
+        order: -1;
+    }
+
+    .footer_development_studio_container span {
+        max-width: 205px;
+    }
+
+    .footer_menu_list {
+        display: flex;
+
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer_menu_list_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .footer_menu_list_item_content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .footer_reviews_description {
+        margin-bottom: 20px;
+
+        font-size: var(--font-caption-size);
+        font-weight: var(--font-caption-weight);
+        line-height: var(--font-caption-line-height);
+    }
+
+    .footer_review {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    .footer_company_details {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer_company_details span:nth-child(3) {
+        order: -1;
+    }
+
+    .footer_payment_types {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer_payment_type {
+        width: 61px;
+        min-width: 61px;
+        height: 38px;
+        border-radius: 0;
+    }
+}

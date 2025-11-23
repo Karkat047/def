@@ -1,0 +1,90 @@
+:root {
+    /*colors*/
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-text-black: #414042;
+    --color-dark-blue: #254D8B;
+    --color-blue: #2B93C8;
+    --color-light-blue: #43bbfb;
+    --color-pearl: #E6DCC8;
+    --color-dark-gray: #59575A;
+    --color-gray: #979797;
+    --color-gray-2: #FBFAFA;
+    --color-light-gray: #F3F3F3;
+    --color-cool-gray: #C8C8C8;
+    --color-turquoise: #40E0D0;
+    --color-light-gold: #F0F7AF;
+    --color-valid: #2B93C8;
+    --color-error: #F90000;
+
+    /*font-styles*/
+    --font-big-number-size: 80px;
+    --font-big-number-weight: 700;
+    --font-big-number-line-height: 120%;
+
+    --font-big-text-size: 48px;
+    --font-big-text-weight: 700;
+    --font-big-text-line-height: 120%;
+
+    --font-h1-size: 40px;
+    --font-h1-weight: 700;
+    --font-h1-line-height: 120%;
+
+    --font-mob-h1-size: 24px;
+    --font-mob-h1-weight: 700;
+    --font-mob-h1-line-height: 120%;
+
+    --font-h2-size: 36px;
+    --font-h2-weight: 700;
+    --font-h2-line-height: 120%;
+
+    --font-h3-size: 28px;
+    --font-h3-weight: 700;
+    --font-h3-line-height: 140%;
+
+    --font-h4-size: 24px;
+    --font-h4-weight: 600;
+    --font-h4-line-height: 140%;
+
+    --font-h5-size: 18px;
+    --font-h5-weight: 700;
+    --font-h5-line-height: 22px;
+
+    --font-text-size: 18px;
+    --font-text-weight: 400;
+    --font-text-line-height: 120%;
+
+    --font-button-size: 16px;
+    --font-button-weight: 600;
+    --font-button-line-height: 22px;
+
+    --font-menu-nav-size: 16px;
+    --font-menu-nav-weight: 400;
+    --font-menu-nav-line-height: 22px;
+
+    --font-description-size: 14px;
+    --font-description-weight: 400;
+    --font-description-line-height: 120%;
+
+    --font-caption-size: 12px;
+    --font-caption-weight: 400;
+    --font-caption-line-height: 120%;
+
+    @media (max-width: 1023px) {
+        --font-h1-size: 24px;
+        --font-h1-weight: 700;
+        --font-h1-line-height: 120%;
+
+        --font-h2-size: 20px;
+        --font-h2-weight: 700;
+        --font-h2-line-height: 120%;
+
+        --font-h3-size: 18px;
+        --font-h3-weight: 700;
+        --font-h3-line-height: 22px;
+
+        --font-h4-size: 18px;
+        --font-h4-weight: 700;
+        --font-h4-line-height: 22px;
+    }
+}
