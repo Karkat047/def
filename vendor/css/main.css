@@ -1818,6 +1818,10 @@ iframe {
     margin: 0 auto;
 }
 
+.articles_container.swiper {
+    justify-content: unset;
+}
+
 .articles_swiper {
     width: 100%;
 }

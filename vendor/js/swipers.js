@@ -234,10 +234,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	var articlesSwiper = new Swiper( ".articles_swiper", {
 		slidesPerView: "auto",
-		spaceBetween: 40,
+		spaceBetween: 20,
 		pagination: {
 			el: ".articles_swiper_pagination",
 			clickable: true,
+		},
+		breakpoints: {
+			1024: {
+				slidesPerView: 4,
+				spaceBetween: 40,
+			}
 		},
 		keyboard: true,
 	});
