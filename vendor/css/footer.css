@@ -25,6 +25,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .footer_logo {
@@ -32,15 +33,28 @@ footer {
 }
 
 .footer_location_button {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 4px;
+    height: fit-content;
 
     color: var(--color-white);
     /*toDo: вывести в константу*/
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
+}
+
+.footer_location_button:after {
+    content: "";
+    width: 159px;
+    height: 35px;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    z-index: 500;
+    visibility: hidden;
 }
 
 .footer_phone_container {
@@ -69,7 +83,9 @@ footer {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    justify-content: center;
     padding-top: 40px;
+    width: 100%;
 }
 
 .footer_reviews_container {
@@ -327,6 +343,45 @@ footer {
     line-height: var(--font-caption-line-height);
 }
 
+#footer_location_button {
+    cursor: pointer;
+}
+
+#footer_location_button:hover:after,
+#footer_location_button:hover #footer_location_context {
+    visibility: visible;
+}
+
+#footer_location_context {
+    top: 35px;
+    padding: 8px 0;
+    box-shadow: 0 15px 20px 0 #4342421A;
+}
+
+#footer_location_context .menu_nav_context_block_items_list {
+    gap: 2px;
+}
+
+#footer_location_context .menu_nav_context_block_item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 4px 20px;
+    cursor: pointer;
+
+    text-wrap: nowrap;
+    font-size: 14px;
+}
+
+#footer_location_context .footer_info_address,
+#footer_location_context:hover .footer_info_address {
+    color: var(--color-cool-gray);
+}
+
+#footer_location_context .menu_nav_context_block_item:hover {
+    background-color: var(--color-light-gray);
+}
+
 .footer_descriptions_section {
     display: flex;
     gap: 110px;
@@ -387,7 +442,7 @@ footer {
         height: 40px;
     }
 
-    .footer_location_button span {
+    .footer_location_button > span {
         font-size: 16px;
         font-weight: 400;
         line-height: 22px;
@@ -514,5 +569,22 @@ footer {
         min-width: 61px;
         height: 38px;
         border-radius: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    #footer_location_context,
+    #footer_location_context .menu_nav_context_block_items_list {
+        width: 100%;
+    }
+
+    #footer_location_context .menu_nav_context_block_item {
+        flex-wrap: wrap;
+        gap: 0 8px;
+        padding: 4px 10px;
+    }
+
+    #footer_location_context .header_info_address {
+        text-wrap: wrap;
     }
 }

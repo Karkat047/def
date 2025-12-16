@@ -349,6 +349,14 @@ input:-moz-placeholder { /* Firefox 18- */
     background: var(--color-cool-gray);
 }
 
+#debtSlider {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
 .swiper-pagination {
     display: flex;
     justify-content: center;
@@ -480,6 +488,12 @@ input:-moz-placeholder { /* Firefox 18- */
 
     background: var(--color-white);
     color: var(--color-dark-gray);
+}
+
+.ask_questions_modal input:not(.checkbox),
+.ask_questions_modal textarea,
+.ask_questions_modal button {
+    width: 100%;
 }
 
 .search_modal_container {
@@ -1206,6 +1220,6 @@ input:-moz-placeholder { /* Firefox 18- */
     }
 
     .ask_questions_modal {
-        padding-left: 30px 20px;
+        padding: 30px 20px;
     }
 }

@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		keyboard: true,
 	});
 	
-	var schemeSwiper = new Swiper( ".scheme_swiper", {
+	var schemeSwiper = new Swiper(".scheme_swiper", {
 		slidesPerView: 1,
 		spaceBetween: 80,
 		navigation: {
@@ -36,6 +36,25 @@ document.addEventListener('DOMContentLoaded', function() {
 			clickable: true,
 		},
 		keyboard: true,
+		breakpoints: {
+			0: {
+				spaceBetween: 0,
+			},
+			1024: {
+				spaceBetween: 80,
+			}
+		},
+		on: {
+			init: function () {
+				this.update();
+			},
+		},
+	});
+	
+	window.addEventListener('resize', function() {
+		setTimeout(function() {
+			schemeSwiper.update();
+		}, 100);
 	});
 	
 	document.querySelectorAll( '.scheme_swiper_step_buttons [data-slide]' ).forEach( btn => {
