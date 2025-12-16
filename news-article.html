@@ -60,8 +60,8 @@
     <div class="header_bottom">
         <div class="header_bottom_container">
             <div class="header_bottom_menu">
-                <a href="index.html"><i class="header_bottom_menu_logo"></i></a>
-                <div id="menu_services" class="menu_nav">
+                <a href="index.html"><img class="header_bottom_menu_logo" src="./vendor/images/logo.svg" alt="logo"></a>
+                <nav id="menu_services" class="menu_nav">
                     Услуги
                     <svg class="icon_fill" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3.64645 6.79343C3.84171 6.98869 4.15829 6.98869 4.35355 6.79343L7.53553 3.61145C7.7308 3.41619 7.7308 3.09961 7.53553 2.90434C7.34027 2.70908 7.02369 2.70908 6.82843 2.90434L4 5.73277L1.17157 2.90434C0.976311 2.70908 0.659728 2.70908 0.464466 2.90434C0.269204 3.09961 0.269204 3.41619 0.464466 3.61145L3.64645 6.79343ZM4 6H3.5V6.43988H4H4.5V6H4Z"/>
@@ -116,7 +116,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </nav>
                 <a href="reviews.html" class="button menu_nav">Отзывы</a>
                 <a href="price.html" class="button menu_nav">Цены</a>
                 <a href="blog.html" class="button menu_nav">Блог</a>
@@ -137,7 +137,7 @@
                 <button class="menu_nav menu_nav_personal_account header_personal_account_button">Личный кабинет</button>
                 <button data-modal="search_modal" class="menu_nav open_modal">
                     <svg class="icon_stroke" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path id="Path 5" d="M14.4121 14.4121L20 20" stroke-width="1.5" stroke-linecap="round"/>
+                        <path id="Path_5" d="M14.4121 14.4121L20 20" stroke-width="1.5" stroke-linecap="round"/>
                         <path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16Z" stroke-width="1.5"/>
                     </svg>
                 </button>
@@ -146,24 +146,24 @@
         </div>
     </div>
 
-    <div class="mobile_header">
-        <i class="mobile_header_logo"></i>
-        <a class="mobile_header_info_phone" href="tel: +7 (343) 302‒20‒18">+7 (343) 302‒20‒18</a>
-        <i class="mobile_menu_button"></i>
-    </div>
+    <header class="mobile_header">
+        <img class="mobile_header_logo" src="./vendor/images/logo-mobile.svg" alt="logo-mobile">
+        <a class="mobile_header_info_phone" href="tel:+73433022018">+7 (343) 302‒20‒18</a>
+        <img class="mobile_menu_button" src="./vendor/images/new-icons/menu.svg" alt="menu">
+    </header>
     <div class="mobile_menu_overlay"></div>
     <div class="mobile_menu_container">
         <div class="mobile_menu_header">
-            <a href="index.html"><i class="header_bottom_menu_logo"></i></a>
-            <div class="close_mobile_menu"><i class="close-modal-icon"></i></div>
+            <a href="index.html"><img class="header_bottom_menu_logo" src="./vendor/images/logo.svg" alt="logo"></a>
+            <div class="close_mobile_menu"><img src="./vendor/images/new-icons/close-icon.svg" alt="close-icon"></div>
         </div>
 
-        <div class="mobile_menu_context">
+        <nav class="mobile_menu_context">
 
             <div class="menu-list" data-level="0">
                 <a class="menu-item" data-target="services">
                     <span class="menu-item-text">Услуги</span>
-                    <i class="arrow_right_menu"></i>
+                    <img src="./vendor/images/new-icons/arrow-right-menu.svg" alt="arrow-right">
                 </a>
                 <a class="menu-item" href="reviews.html">
                     <span class="menu-item-text">Отзывы</span>
@@ -176,7 +176,7 @@
                 </a>
                 <a class="menu-item" data-target="about">
                     <span class="menu-item-text">О компании</span>
-                    <i class="arrow_right_menu"></i>
+                    <img src="./vendor/images/new-icons/arrow-right-menu.svg" alt="arrow-right">
                 </a>
                 <a class="menu-item" href="contacts.html">
                     <span class="menu-item-text">Контакты</span>
@@ -195,7 +195,7 @@
                     </div>
 
                     <div class="mobile_menu_contact">
-                        <a class="header_info_phone" href="tel: +7 (343) 302‒20‒18">+7 (343) 302‒20‒18</a>
+                        <a class="header_info_phone" href="tel:+73433022018">+7 (343) 302‒20‒18</a>
                         <button data-modal="consultation-modal" class="button_contoured">Заказать звонок</button>
                     </div>
 
@@ -203,8 +203,8 @@
 
                     <button data-modal="search_modal" class="mobile_menu_search_button menu_nav open_modal">
                         <svg class="icon_stroke" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path id="Path 5" d="M14.4121 14.4121L20 20" stroke-width="1.5" stroke-linecap="round"/>
-                            <path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16Z" stroke-width="1.5"/>
+                            <path id="Path_6" d="M14.4121 14.4121L20 20" stroke-width="1.5" stroke-linecap="round"/>
+                            <path id="Oval2" fill-rule="evenodd" clip-rule="evenodd" d="M10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16Z" stroke-width="1.5"/>
                         </svg>
                     </button>
 
@@ -319,7 +319,7 @@
                     <span class="menu-item-text">Новости</span>
                 </a>
             </div>
-        </div>
+        </nav>
     </div>
 
     <div class="floating--top call-yet"><div class="back-to-top"><button type="button"></button></div></div>
@@ -435,10 +435,10 @@
                 </div>
 
                 <div class="arrow_left blog_articles_swiper_left_button ">
-                    <i class="arrow_icon"></i>
+                    <img src="./vendor/images/new-icons/arrow.svg" alt="arrow-left">
                 </div>
                 <div class="arrow_right blog_articles_swiper_right_button">
-                    <i class="arrow_icon"></i>
+                    <img src="./vendor/images/new-icons/arrow.svg" alt="arrow-right">
                 </div>
             </div>
             <div class="blog_articles_pagination swiper-pagination"></div>
@@ -458,7 +458,7 @@
     <footer>
         <div class="footer_container">
             <div class="footer_location_section">
-                <i class="footer_logo"></i>
+                <img class="footer_logo" src="./vendor/images/footer-logo.svg" alt="logo">
 
                 <div id="footer_location_button" class="footer_location_button">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -485,12 +485,12 @@
                 </div>
 
                 <div class="footer_phone_container">
-                    <a class="header_info_phone" href="tel: 8 (800) 000‒00‒10">8 (800) 000‒00‒10</a>
+                    <a class="header_info_phone" href="tel:88000000010">8 (800) 000‒00‒10</a>
                     <span class="footer_phone_description">Все звонки по России бесплатные</span>
                 </div>
 
                 <div class="footer_phone_container">
-                    <a class="header_info_phone" href="tel: +7 (343) 302‒20‒18">+7 (343) 302‒20‒18</a>
+                    <a class="header_info_phone" href="tel:+73433022018">+7 (343) 302‒20‒18</a>
                     <span class="footer_phone_description">Для звонков из Екатеринбурга</span>
                 </div>
             </div>
@@ -506,16 +506,16 @@
                     <div class="footer_reviews">
                         <a class="footer_review">
                             <div class="footer_review_icon_container">
-                                <i class="footer_review_icon_yandex"></i>
+                                <img src="./vendor/images/new-icons/social/yandex-footer-review.svg" alt="yandex-review">
                                 <span>Яндекс.карты</span>
                             </div>
                             <div class="footer_review_rating_container">
                                 <div class="footer_review_stars">
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
                                 </div>
                                 <div class="footer_review_rating">
                                     <span class="footer_review_current_rating">4.9</span>
@@ -526,15 +526,15 @@
                         </a>
                         <a class="footer_review">
                             <div class="footer_review_icon_container">
-                                <i class="footer_review_icon_2gis"></i>
+                                <img class="footer_review_icon_2gis" src="./vendor/images/new-icons/social/2gis-footer-review.svg" alt="2gis-review">
                             </div>
                             <div class="footer_review_rating_container">
                                 <div class="footer_review_stars">
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
                                 </div>
                                 <div class="footer_review_rating">
                                     <span class="footer_review_current_rating">4.9</span>
@@ -545,15 +545,15 @@
                         </a>
                         <a class="footer_review">
                             <div class="footer_review_icon_container">
-                                <i class="footer_review_icon_flamp"></i>
+                                <img src="./vendor/images/new-icons/social/flamp-footer-review.svg" alt="flamp-review">
                             </div>
                             <div class="footer_review_rating_container">
                                 <div class="footer_review_stars">
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
-                                    <i class="footer_review_star"></i>
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
                                 </div>
                                 <div class="footer_review_rating">
                                     <span class="footer_review_current_rating">4.9</span>
@@ -565,7 +565,7 @@
                     </div>
                 </div>
 
-                <div class="footer_menu_container">
+                <nav class="footer_menu_container">
                     <div class="menu_nav">Услуги</div>
                     <div class="menu_nav">Отзывы</div>
                     <div class="menu_nav">Цены</div>
@@ -576,7 +576,7 @@
                     <div class="menu_nav">Полезные документы</div>
                     <div class="menu_nav">Вопросы</div>
                     <div class="menu_nav">Вакансии</div>
-                </div>
+                </nav>
 
                 <div class="footer_buttons_container">
                     <div class="footer_consultation_buttons">
@@ -587,11 +587,11 @@
                     <div class="footer_social_buttons_container">
                         <div class="footer_social_chat_buttons">
                             <div class="footer_social_chat_whatsapp_button">
-                                <i class="footer_social_chat_whatsapp_icon"></i>
+                                <img src="./vendor/images/new-icons/social/whatsapp-button.svg" alt="whatsapp-button">
                                 <span class="footer_social_chat_description">Онлайн чат</span>
                             </div>
                             <div class="footer_social_chat_telegram_button">
-                                <i class="footer_social_chat_telegram_icon"></i>
+                                <img src="./vendor/images/new-icons/social/telegram-button.svg" alt="telegram-button">
                                 <span>Онлайн чат</span>
                             </div>
                         </div>
@@ -618,16 +618,16 @@
                             <div class="footer_reviews">
                                 <div class="footer_review">
                                     <div class="footer_review_icon_container">
-                                        <i class="footer_review_icon_yandex"></i>
+                                        <img src="./vendor/images/new-icons/social/yandex-footer-review.svg" alt="yandex-review">
                                         <span>Яндекс.карты</span>
                                     </div>
                                     <div class="footer_review_rating_container">
                                         <div class="footer_review_stars">
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
                                         </div>
                                         <div class="footer_review_rating">
                                             <span class="footer_review_current_rating">4.9</span>
@@ -638,15 +638,15 @@
                                 </div>
                                 <div class="footer_review">
                                     <div class="footer_review_icon_container">
-                                        <i class="footer_review_icon_2gis"></i>
+                                        <img src="./vendor/images/new-icons/social/2gis-footer-review.svg" alt="2gis-review">
                                     </div>
                                     <div class="footer_review_rating_container">
                                         <div class="footer_review_stars">
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
                                         </div>
                                         <div class="footer_review_rating">
                                             <span class="footer_review_current_rating">4.9</span>
@@ -657,15 +657,15 @@
                                 </div>
                                 <div class="footer_review">
                                     <div class="footer_review_icon_container">
-                                        <i class="footer_review_icon_flamp"></i>
+                                        <img src="./vendor/images/new-icons/social/flamp-footer-review.svg" alt="flamp-review">
                                     </div>
                                     <div class="footer_review_rating_container">
                                         <div class="footer_review_stars">
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
-                                            <i class="footer_review_star"></i>
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                            <img src="./vendor/images/new-icons/star.svg" alt="star">
                                         </div>
                                         <div class="footer_review_rating">
                                             <span class="footer_review_current_rating">4.9</span>
@@ -700,19 +700,19 @@
                         <div class="footer_menu_list_item_content">
                             <div class="footer_payment_types">
                                 <div class="footer_payment_type">
-                                    <i class="footer_payment_mir_icon"></i>
+                                    <img src="./vendor/images/new-icons/mir.svg" alt="mir">
                                 </div>
                                 <div class="footer_payment_type">
-                                    <i class="footer_payment_visa_icon"></i>
+                                    <img src="./vendor/images/new-icons/visa.svg" alt="visa">
                                 </div>
                                 <div class="footer_payment_type">
-                                    <i class="footer_payment_master_card_icon"></i>
+                                    <img src="./vendor/images/new-icons/master-card.svg" alt="master-card">
                                 </div>
                                 <div class="footer_payment_type">
-                                    <i class="footer_payment_maestro_icon"></i>
+                                    <img src="./vendor/images/new-icons/maestro.svg" alt="maestro">
                                 </div>
                                 <div class="footer_payment_type">
-                                    <i class="footer_payment_union_pay_icon"></i>
+                                    <img src="./vendor/images/new-icons/union-pay.svg" alt="union-pay">
                                 </div>
                             </div>
                         </div>
@@ -756,19 +756,19 @@
                         <h5>Способы оплаты</h5>
                         <div class="footer_payment_types">
                             <div class="footer_payment_type">
-                                <i class="footer_payment_mir_icon"></i>
+                                <img src="./vendor/images/new-icons/mir.svg" alt="mir">
                             </div>
                             <div class="footer_payment_type">
-                                <i class="footer_payment_visa_icon"></i>
+                                <img src="./vendor/images/new-icons/visa.svg" alt="visa">
                             </div>
                             <div class="footer_payment_type">
-                                <i class="footer_payment_master_card_icon"></i>
+                                <img src="./vendor/images/new-icons/master-card.svg" alt="master-card">
                             </div>
                             <div class="footer_payment_type">
-                                <i class="footer_payment_maestro_icon"></i>
+                                <img src="./vendor/images/new-icons/maestro.svg" alt="maestro">
                             </div>
                             <div class="footer_payment_type">
-                                <i class="footer_payment_union_pay_icon"></i>
+                                <img src="./vendor/images/new-icons/union-pay.svg" alt="union-pay">
                             </div>
                         </div>
                     </div>
@@ -793,7 +793,7 @@
                 <div class="footer_descriptions_left_side">
                     <p>
                         *Цена указана для льготной категории граждан. Узнать подробнее можно по телефону или в чате. Гарантия на возврат средств и оплату долга не распространяется на несписание долгов по причине действий/бездействия клиента и отсутствия оплаты услуг компании.
-                        <a class=class="footer_link" href="#" target="_blank">Подробнее.</a>
+                        <a class="footer_link" href="#" target="_blank">Подробнее.</a>
                     </p>
                     <p>
                         **Социальные сети Instagram и Facebook запрещены в РФ. Решением суда от 21.03.2022 компания Meta признана экстремистской организацией на территории Российской Федерации.
@@ -837,7 +837,7 @@
 
     <div id="thanks_modal" class="modal hidden">
         <div class="thanks_modal_container">
-            <span class="thanks_modal_title">Спасибо, что обратились<br />к нам!</span>
+            <span class="thanks_modal_title">Спасибо, что обратились<br>к нам!</span>
             <span class="thanks_modal_description">Мы свяжемся с вами в ближайщее время</span>
             <button class="close-modal button_normal">Закрыть</button>
         </div>
@@ -851,8 +851,8 @@
                     <span class="media_modal_header_media_count">1/3</span>
                     <div class="media_modal_buttons">
                         <div class="media_modal_zoom_button" data-zoom-active="false">
-                            <i class="media_modal_zoom-in"></i>
-                            <i class="media_modal_zoom-out hidden"></i>
+                            <img class="media_modal_zoom-in" src="./vendor/images/new-icons/zoom-in.svg" alt="zoom-in">
+                            <img class="media_modal_zoom-out hidden" src="./vendor/images/new-icons/zoom-out.svg" alt="zoom-out">
                         </div>
                         <div class="close-modal">
                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -869,7 +869,7 @@
                             <img src="vendor/images/media-modal-doc.png" alt="media-doc">
                         </div>
                         <div class="media_modal_content_item" data-index="1">
-                            <iframe src="https://vk.com/video_ext.php?oid=-180686611&id=456239389&autoplay=0" width="325" height="646" style="background-color: #000" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://vk.com/video_ext.php?oid=-180686611&id=456239389&autoplay=0" width="325" height="646" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" allowfullscreen></iframe>
                         </div>
                         <div class="media_modal_content_item" data-index="2">
                             <img src="vendor/images/media-modal-doc.png" alt="media-doc">
@@ -877,10 +877,36 @@
                     </div>
 
                     <div class="arrow_left media_modal_nav_button prev hidden">
-                        <i class="arrow_icon"></i>
+                        <img src="./vendor/images/new-icons/arrow.svg" alt="arrow-left">
                     </div>
                     <div class="arrow_right media_modal_nav_button next">
-                        <i class="arrow_icon"></i>
+                        <img src="./vendor/images/new-icons/arrow.svg" alt="arrow-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="video_modal" class="modal hidden">
+        <div class="media_modal_container">
+            <div class="media_modal_wrapper">
+
+                <div class="media_modal_header">
+                    <div class="media_modal_buttons">
+                        <div class="close-modal">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.3335 13.3335L26.6668 26.6668" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M26.6665 13.3335L13.3332 26.6668" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media_modal_content_container">
+                    <div class="media_track">
+                        <div class="media_modal_content_item" data-index="1">
+                            <iframe src="https://vk.com/video_ext.php?oid=-180686611&id=456239389&autoplay=0" width="325" height="646" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -892,12 +918,12 @@
             <div class="search_modal_wrapper">
                 <div class="search_modal_title">
                     <h3>Поиск по сайту</h3>
-                    <div class="close-modal"><i class="close-modal-icon"></i></div>
+                    <div class="close-modal"><img src="./vendor/images/new-icons/close-icon.svg" alt="close"></div>
                 </div>
                 <div class="search_modal_input_container">
                     <input name="name" placeholder="Введите запрос для поиска">
                     <div class="search_modal_icon_container">
-                        <i class="search_icon"></i>
+                        <img class="search_icon" src="./vendor/images/new-icons/search-icon.svg" alt="search">
                     </div>
                 </div>
                 <span class="search_modal_description">Например: банкротство по кредитам</span>
@@ -936,32 +962,32 @@
 
     <div id="ask-questions-modal" class="modal hidden">
         <form class="ask_questions_modal ask_questions_modal_container" novalidate>
-            <div class="close-modal"><i class="close-modal-icon"></i></div>
+            <div class="close-modal"><img src="./vendor/images/new-icons/close-icon.svg" alt="close"></div>
             <h3>Задать вопрос</h3>
             <span>У вас есть вопрос? Мы готовы помочь! Заполните форму, и мы постараемся ответить на ваш вопрос как можно скорее.</span>
             <div class="form-field">
-                <input style="width: 100%" name="name" placeholder="Ваше имя" data-validate="name" required>
+                <input name="name" placeholder="Ваше имя" data-validate="name" required>
                 <div class="error error-name"></div>
             </div>
             <div class="form-field">
-                <input style="width: 100%" name="phone" placeholder="+7 (___) ___-__-__" data-validate="phone" required>
+                <input name="phone" placeholder="+7 (___) ___-__-__" data-validate="phone" required>
                 <div class="error error-phone"></div>
             </div>
             <div class="form-field">
-                <textarea style="width: 100%;" name="textarea" placeholder="Ваш вопрос" data-validate="textarea" required></textarea>
+                <textarea name="textarea" placeholder="Ваш вопрос" data-validate="textarea" required></textarea>
                 <div class="error error-textarea"></div>
             </div>
             <div class="application_form_button">
-                <button style="width: 100%"; class="button_normal" type="submit">Бесплатная консультация</button>
-                <div style="width: 100%" class="form-field">
+                <button class="button_normal" type="submit">Бесплатная консультация</button>
+                <div class="form-field">
                     <div class="form_checkbox">
-                        <input name="checked" class="checkbox" type="checkbox" data-validate="checked" required >
-                        <p style="text-wrap: nowrap">Ознакомлен(а) с <a class="link" href="#" target="_blank">политикой конфиденциальности</a></p>
+                        <input name="checked" class="checkbox" type="checkbox" data-validate="checked" required>
+                        <p>Ознакомлен(а) с <a class="link" href="#" target="_blank">политикой конфиденциальности</a></p>
                     </div>
                 </div>
-                <div style="width: 100%" class="form-field">
+                <div class="form-field">
                     <div class="form_checkbox">
-                        <input name="personalChecked" class="checkbox" type="checkbox" data-validate="personalChecked" required >
+                        <input name="personalChecked" class="checkbox" type="checkbox" data-validate="personalChecked" required>
                         <p>Даю согласие на обработку <a class="link" href="#" target="_blank">персональных данных</a></p>
                     </div>
                 </div>
@@ -971,10 +997,10 @@
 
     <div id="consultation-modal" class="modal hidden">
         <div class="consultation_modal_container">
-            <div class="close-modal"><i class="close-modal-icon"></i></div>
-            <h1 class="consultation_modal_title">
+            <div class="close-modal"><img src="./vendor/images/new-icons/close-icon.svg" alt="close"></div>
+            <p class="headline consultation_modal_title">
                 Готовы избавиться от долгов и начать новую жизнь — <span class="highlighted_text">заполните форму,</span> и мы с вами свяжемся
-            </h1>
+            </p>
             <form class="consultation_modal_form" novalidate>
                 <div class="form-field">
                     <input name="name" placeholder="Ваше имя" data-validate="name" required>
@@ -988,7 +1014,7 @@
                     <button class="button_normal" type="submit">Бесплатная консультация</button>
                     <div class="form-field">
                         <div class="form_checkbox">
-                            <input name="checked" class="checkbox" type="checkbox" data-validate="checked" required >
+                            <input name="checked" class="checkbox" type="checkbox" data-validate="checked" required>
                             <p>
                                 Даю <a class="link" href="#" target="_blank">согласие на обработку персональных данных</a>
                                 в соответствии с <a class="link" href="#" target="_blank">политикой в отношении обработки персональных данных, политикой конфиденциальности</a>,
@@ -998,7 +1024,7 @@
                     </div>
                     <div class="form-field">
                         <div class="form_checkbox">
-                            <input name="personalChecked" class="checkbox" type="checkbox" data-validate="personalChecked" required >
+                            <input name="personalChecked" class="checkbox" type="checkbox" data-validate="personalChecked" required>
                             <p>Предоставляю <a class="link" href="#" target="_blank">согласие</a> на получение рекламных новостей, акций и персональных предложений</p>
                         </div>
                     </div>
@@ -1006,17 +1032,18 @@
             </form>
         </div>
     </div>
+
+
+    <script src="./vendor/js/jquery-3.2.1.min.js"></script>
+    <script src="./vendor/js/jquery.mask.js"></script>
+    <script src="./vendor/js/accordion.js"></script>
+    <script src="./vendor/js/buttons.js"></script>
+    <script src="./vendor/js/calculator.js"></script>
+    <script src="./vendor/js/form-validation.js"></script>
+    <script src="./vendor/js/mobile-menu.js"></script>
+    <script src="./vendor/js/modal.js"></script>
+    <script src="./vendor/js/showMore.js"></script>
+    <script src="./vendor/js/swiper.js"></script>
+    <script src="./vendor/js/swipers.js"></script>
 </body>
 </html>
-
-<script src="./vendor/js/jquery-3.2.1.min.js"></script>
-<script src="./vendor/js/jquery.mask.js"></script>
-<script src="./vendor/js/accordion.js"></script>
-<script src="./vendor/js/buttons.js"></script>
-<script src="./vendor/js/calculator.js"></script>
-<script src="./vendor/js/form-validation.js"></script>
-<script src="./vendor/js/mobile-menu.js"></script>
-<script src="./vendor/js/modal.js"></script>
-<script src="./vendor/js/showMore.js"></script>
-<script src="./vendor/js/swiper.js"></script>
-<script src="./vendor/js/swipers.js"></script>

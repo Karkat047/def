@@ -627,18 +627,6 @@ iframe {
     bottom: 0;
 }
 
-.scheme_background_image {
-    content: url("../images/scheme-background.png");
-}
-
-.scheme_background_image_2 {
-    content: url("../images/scheme-background-2.png");
-}
-
-.scheme_background_image_3 {
-    content: url("../images/scheme-background-3.png");
-}
-
 .scheme_swiper_left_button {
     position: absolute;
     top: 50%;
@@ -1550,7 +1538,7 @@ iframe {
     cursor: pointer;
 }
 
-.media_about_video_container img {
+.media_about_video_container img:not(.media_about_video_play) {
     max-width: 560px;
     width: 100%;
     height: 315px;
@@ -1612,7 +1600,7 @@ iframe {
     background-color: var(--color-white);
 }
 
-.team_item img {
+.team_item > img {
     width: 360px;
     height: 287px;
     object-fit: cover;
@@ -1740,7 +1728,7 @@ iframe {
     position: relative;
 }
 
-.slide-content img {
+.slide-content img:not(.short-video-play) {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -3271,12 +3259,13 @@ iframe {
 .price_consultation_form_button {
     display: flex;
     flex-direction: column;
+    gap: 10px
 }
 
 .price_consultation_form_button button {
     width: 100%;
-    margin-bottom: 10px;
 }
+
 
 .price_container_right_side {
     display: flex;
@@ -3348,12 +3337,6 @@ iframe {
 }
 
 .price_container_item_icon {
-    content: url("../images/new-icons/check-mark.svg");
-    margin-right: 10px;
-}
-
-.price_container_item_icon_2 {
-    content: url("../images/new-icons/check-mark-black.svg");
     margin-right: 10px;
 }
 
@@ -4406,7 +4389,7 @@ iframe {
     }
 
     .media_about_video_container,
-    .media_about_video_container img {
+    .media_about_video_container img:not(.media_about_video_play) {
         width: 288px;
         height: 162px;
         border-radius: 10px;
@@ -4455,7 +4438,7 @@ iframe {
         height: 320px;
     }
 
-    .team_item img {
+    .team_item > img {
         width: 288px;
         height: 227px;
     }
