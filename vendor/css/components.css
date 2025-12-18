@@ -12,7 +12,6 @@ button,
     font-weight: var(--font-button-weight);
     line-height: var(--font-button-line-height);
     letter-spacing: 0;
-    text-wrap: nowrap;
 }
 
 .button_normal {

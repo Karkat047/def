@@ -140,6 +140,10 @@ iframe {
     border: none;
 }
 
+address {
+    font-style: inherit;
+}
+
 .word-break {
     word-break: break-all;
 }
@@ -268,6 +272,7 @@ iframe {
 
 .home_banner_link {
     margin: 99px 0 52px;
+    max-width: 700px;
 
     color: var(--color-dark-blue);
     font-weight: var(--font-menu-nav-weight);
@@ -548,7 +553,7 @@ iframe {
     display: flex;
     gap: 41px;
     width: 797px;
-    height: 212px;
+    min-height: 212px;
 }
 
 .scheme_steps_left_side {
@@ -865,6 +870,10 @@ iframe {
     flex-wrap: wrap;
 }
 
+.calculator_section_container fieldset legend {
+    margin-bottom: 20px;
+}
+
 .calculator_container_left_side,
 .calculator_container_right_side {
     flex: 1;
@@ -885,14 +894,6 @@ iframe {
     margin-bottom: 20px;
 }
 
-.calculator_overdue_container,
-.calculator_debt_amount_container,
-.calculator_debt_type_container,
-.calculator_payment_form_container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
 .overdue_buttons {
     display: flex;
@@ -1481,6 +1482,10 @@ iframe {
     color: var(--color-dark-blue);
 }
 
+.about_numbers_item {
+    max-width: 300px;
+}
+
 .about_numbers {
     display: flex;
     justify-content: space-between;
@@ -1980,7 +1985,7 @@ iframe {
     gap: 20px;
     width: 760px;
     min-height: 74px;
-    padding: 0 30px;
+    padding: 15px 30px;
     border-radius: 6px;
 
     background-color: var(--color-white);
@@ -1991,7 +1996,6 @@ iframe {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 74px;
     cursor: pointer;
 }
 
@@ -2004,7 +2008,7 @@ iframe {
 }
 
 .question_active_item {
-    padding: 0 22px 24px 30px;
+    padding: 15px 22px 24px 30px;
 }
 
 .question_item_content {
@@ -4553,7 +4557,7 @@ iframe {
 
     .question_item {
         width: 100%;
-        padding: 3px 20px;
+        padding: 10px 20px;
 
         font-size: 14px;
         font-weight: 400;

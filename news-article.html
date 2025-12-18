@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="vendor/css/index.css">
 </head>
 <body>
-    <div class="header_top">
+    <header class="header_top">
         <div class="header_location_container">
-            <div id="header_location_button" class="header_location_button">
+            <address id="header_location_button" class="header_location_button">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M19 9.75C19 15.375 12 21 12 21C12 21 5 15.375 5 9.75C5 6.02208 8.13401 3 12 3C15.866 3 19 6.02208 19 9.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <circle cx="12" cy="10" r="3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -18,50 +18,43 @@
                 <span class="header_location_info">г. Екатеринбург</span>
 
                 <div id="header_location_context" class="menu_nav_context">
-                    <div class="menu_nav_context_block_items_list">
-                        <div class="menu_nav_context_block_item">
+                    <ul class="menu_nav_context_block_items_list">
+                        <li class="menu_nav_context_block_item">
                             <span>г. Екатеринбург</span>
                             <span class="header_info_address">ул. Радищева, д.4, офис 400В</span>
-                        </div>
-                        <div class="menu_nav_context_block_item">
+                        </li>
+                        <li class="menu_nav_context_block_item">
                             <span>г. Челябинск</span>
                             <span class="header_info_address">пр. Ленина, д.55а, этаж 13, офис 1301</span>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </address>
             <span class="header_info_address">ул. Радищева, д.4, офис 400В</span>
-            <a class="header_info_phone" href="tel: +7 (343) 302‒20‒18">+7 (343) 302‒20‒18</a>
-
-            <div id="location_context" class="menu_nav_context">
-                <div class="menu_nav_context_block_items_list">
-                    <a class="menu_nav_context_block_item">О нас</a>
-                    <a class="menu_nav_context_block_item">Новости</a>
-                </div>
-            </div>
+            <a class="header_info_phone" href="tel:+73433022018">+7 (343) 302‒20‒18</a>
         </div>
-        <div class="header_top_menu_container">
-            <div class="header_top_menu_buttons">
-                <a href="useful-documents.html" class="button header_top_menu_button">Полезные документы</a>
-                <a href="FAQ.html" class="button header_top_menu_button">Вопросы</a>
-                <a href="vacancies.html" class="button header_top_menu_button">Вакансии</a>
-            </div>
-            <div class="header_top_social_buttons">
-                <a href="https://ok.ru/group/55037778067650" target="_blank" ><img src="./vendor/images/new-icons/social/ok.svg" alt="social-ok"></a>
-                <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/telegram.svg" alt="social"></a>
-                <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/viber.svg" alt="social"></a>
-                <a href="https://vk.com/maxdefend" target="_blank"><img src="./vendor/images/new-icons/social/vk.svg" alt="social"></a>
-                <a href="https://api.whatsapp.com/send/?phone=79120341379" target="_blank"><img src="./vendor/images/new-icons/social/whatsapp.svg" alt="social-watsapp"></a>
-                <a href="https://yandex.ru/maps/-/CCUKfEEC8D" target="_blank"><img src="./vendor/images/new-icons/social/yandex.svg" alt="social-yandex"></a>
-                <a href="https://go.2gis.com/3fh1re" target="_blank"><img src="./vendor/images/new-icons/social/2gis.svg" alt="social-2gis"></a>
-            </div>
-        </div>
-    </div>
+        <nav class="header_top_menu_container">
+            <ul class="header_top_menu_buttons">
+                <li><a href="useful-documents.html" class="button header_top_menu_button">Полезные документы</a></li>
+                <li><a href="FAQ.html" class="button header_top_menu_button">Вопросы</a></li>
+                <li><a href="vacancies.html" class="button header_top_menu_button">Вакансии</a></li>
+            </ul>
+            <ul class="header_top_social_buttons">
+                <li><a href="https://ok.ru/group/55037778067650" target="_blank" ><img src="./vendor/images/new-icons/social/ok.svg" alt="social-ok"></a></li>
+                <li><a href="#" target="_blank"><img src="./vendor/images/new-icons/social/telegram.svg" alt="social-tg"></a></li>
+                <li><a href="#" target="_blank"><img src="./vendor/images/new-icons/social/viber.svg" alt="social-viber"></a></li>
+                <li><a href="https://vk.com/maxdefend" target="_blank"><img src="./vendor/images/new-icons/social/vk.svg" alt="social-vk"></a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=79120341379" target="_blank"><img src="./vendor/images/new-icons/social/whatsapp.svg" alt="social-watsapp"></a></li>
+                <li><a href="https://yandex.ru/maps/-/CCUKfEEC8D" target="_blank"><img src="./vendor/images/new-icons/social/yandex.svg" alt="social-yandex"></a></li>
+                <li><a href="https://go.2gis.com/3fh1re" target="_blank"><img src="./vendor/images/new-icons/social/2gis.svg" alt="social-2gis"></a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="header_bottom">
         <div class="header_bottom_container">
-            <div class="header_bottom_menu">
+            <nav class="header_bottom_menu">
                 <a href="index.html"><img class="header_bottom_menu_logo" src="./vendor/images/logo.svg" alt="logo"></a>
-                <nav id="menu_services" class="menu_nav">
+                <div id="menu_services" class="menu_nav">
                     Услуги
                     <svg class="icon_fill" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3.64645 6.79343C3.84171 6.98869 4.15829 6.98869 4.35355 6.79343L7.53553 3.61145C7.7308 3.41619 7.7308 3.09961 7.53553 2.90434C7.34027 2.70908 7.02369 2.70908 6.82843 2.90434L4 5.73277L1.17157 2.90434C0.976311 2.70908 0.659728 2.70908 0.464466 2.90434C0.269204 3.09961 0.269204 3.41619 0.464466 3.61145L3.64645 6.79343ZM4 6H3.5V6.43988H4H4.5V6H4Z"/>
@@ -70,24 +63,24 @@
                     <div id="menu_services_context" class="menu_nav_context">
                         <div class="menu_nav_context_block">
                             <span class="menu_nav_context_block_header">Банкротство</span>
-                            <div class="menu_nav_context_block_items">
-                                <div class="menu_nav_context_block_items_list">
-                                    <a class="menu_nav_context_block_item">Банкротство физических лиц</a>
-                                    <a class="menu_nav_context_block_item">Банкротство бизнеса</a>
-                                    <a class="menu_nav_context_block_item">Упрощенное банкротство</a>
-                                    <a class="menu_nav_context_block_item">Банкротство под ключ</a>
-                                    <a class="menu_nav_context_block_item">Банкротство черз мфц</a>
-                                    <a class="menu_nav_context_block_item">Банкротство дистанционно</a>
-                                </div>
-                                <div class="menu_nav_context_block_items_list">
-                                    <a class="menu_nav_context_block_item">Банкротство физических лиц</a>
-                                    <a class="menu_nav_context_block_item">Банкротство бизнеса</a>
-                                    <a class="menu_nav_context_block_item">Упрощенное банкротство</a>
-                                    <a class="menu_nav_context_block_item">Банкротство под ключ</a>
-                                    <a class="menu_nav_context_block_item">Банкротство черз мфц</a>
-                                    <a class="menu_nav_context_block_item">Банкротство дистанционно</a>
-                                </div>
-                            </div>
+                            <nav class="menu_nav_context_block_items">
+                                <ul class="menu_nav_context_block_items_list">
+                                    <li><a class="menu_nav_context_block_item">Банкротство физических лиц</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство бизнеса</a></li>
+                                    <li><a class="menu_nav_context_block_item">Упрощенное банкротство</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство под ключ</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство черз мфц</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство дистанционно</a></li>
+                                </ul>
+                                <ul class="menu_nav_context_block_items_list">
+                                    <li><a class="menu_nav_context_block_item">Банкротство физических лиц</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство бизнеса</a></li>
+                                    <li><a class="menu_nav_context_block_item">Упрощенное банкротство</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство под ключ</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство черз мфц</a></li>
+                                    <li><a class="menu_nav_context_block_item">Банкротство дистанционно</a></li>
+                                </ul>
+                            </nav>
                             <div class="menu_nav_context_block_button">
                                 <button class="button_normal">Все услуги</button>
                             </div>
@@ -95,28 +88,28 @@
 
                         <div class="menu_nav_context_block">
                             <span class="menu_nav_context_block_header">Списание долгов</span>
-                            <div class="menu_nav_context_block_items">
-                                <div class="menu_nav_context_block_items_list">
-                                    <a class="menu_nav_context_block_item">Списание долгов в банках</a>
-                                    <a class="menu_nav_context_block_item">Дистанционное списание долгов</a>
-                                    <a class="menu_nav_context_block_item">Списание долгов по микрозаймам</a>
-                                    <a class="menu_nav_context_block_item">Списание долгов по налогам</a>
-                                    <a class="menu_nav_context_block_item">Списание долгов по долговым распискам</a>
-                                </div>
-                                <div class="menu_nav_context_block_items_list">
-                                    <a class="menu_nav_context_block_item">Списание долгов в банках</a>
-                                    <a class="menu_nav_context_block_item">Дистанционное списание долгов</a>
-                                    <a class="menu_nav_context_block_item">Списание долгов по микрозаймам</a>
-                                    <a class="menu_nav_context_block_item">Списание долгов по налогам</a>
-                                    <a class="menu_nav_context_block_item">Списание долгов по долговым распискам</a>
-                                </div>
-                            </div>
+                            <nav class="menu_nav_context_block_items">
+                                <ul class="menu_nav_context_block_items_list">
+                                    <li><a class="menu_nav_context_block_item">Списание долгов в банках</a></li>
+                                    <li><a class="menu_nav_context_block_item">Дистанционное списание долгов</a></li>
+                                    <li><a class="menu_nav_context_block_item">Списание долгов по микрозаймам</a></li>
+                                    <li><a class="menu_nav_context_block_item">Списание долгов по налогам</a></li>
+                                    <li><a class="menu_nav_context_block_item">Списание долгов по долговым распискам</a></li>
+                                </ul>
+                                <ul class="menu_nav_context_block_items_list">
+                                    <li><a class="menu_nav_context_block_item">Списание долгов в банках</a></li>
+                                    <li><a class="menu_nav_context_block_item">Дистанционное списание долгов</a></li>
+                                    <li><a class="menu_nav_context_block_item">Списание долгов по микрозаймам</a></li>
+                                    <li><a class="menu_nav_context_block_item">Списание долгов по налогам</a></li>
+                                    <li><a class="menu_nav_context_block_item">Списание долгов по долговым распискам</a></li>
+                                </ul>
+                            </nav>
                             <div class="menu_nav_context_block_button">
                                 <button class="button_normal">Все услуги</button>
                             </div>
                         </div>
                     </div>
-                </nav>
+                </div>
                 <a href="reviews.html" class="button menu_nav">Отзывы</a>
                 <a href="price.html" class="button menu_nav">Цены</a>
                 <a href="blog.html" class="button menu_nav">Блог</a>
@@ -126,12 +119,12 @@
                         <path d="M3.64645 6.79343C3.84171 6.98869 4.15829 6.98869 4.35355 6.79343L7.53553 3.61145C7.7308 3.41619 7.7308 3.09961 7.53553 2.90434C7.34027 2.70908 7.02369 2.70908 6.82843 2.90434L4 5.73277L1.17157 2.90434C0.976311 2.70908 0.659728 2.70908 0.464466 2.90434C0.269204 3.09961 0.269204 3.41619 0.464466 3.61145L3.64645 6.79343ZM4 6H3.5V6.43988H4H4.5V6H4Z"/>
                     </svg>
 
-                    <div id="menu_about_context" class="menu_nav_context">
-                        <div class="menu_nav_context_block_items_list">
-                            <a href="about.html" class="menu_nav_context_block_item">О нас</a>
-                            <a href="news.html" class="menu_nav_context_block_item">Новости</a>
-                        </div>
-                    </div>
+                    <nav id="menu_about_context" class="menu_nav_context">
+                        <ul class="menu_nav_context_block_items_list">
+                            <li><a href="about.html" class="menu_nav_context_block_item">О нас</a></li>
+                            <li><a href="news.html" class="menu_nav_context_block_item">Новости</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <button class="menu_nav">Контакты</button>
                 <button class="menu_nav menu_nav_personal_account header_personal_account_button">Личный кабинет</button>
@@ -141,7 +134,7 @@
                         <path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16Z" stroke-width="1.5"/>
                     </svg>
                 </button>
-            </div>
+            </nav>
             <button data-modal="consultation-modal" class="button_contoured">Заказать звонок</button>
         </div>
     </div>
@@ -159,31 +152,42 @@
         </div>
 
         <nav class="mobile_menu_context">
-
-            <div class="menu-list" data-level="0">
-                <a class="menu-item" data-target="services">
-                    <span class="menu-item-text">Услуги</span>
-                    <img src="./vendor/images/new-icons/arrow-right-menu.svg" alt="arrow-right">
-                </a>
-                <a class="menu-item" href="reviews.html">
-                    <span class="menu-item-text">Отзывы</span>
-                </a>
-                <a class="menu-item" href="price.html">
-                    <span class="menu-item-text">Цены</span>
-                </a>
-                <a class="menu-item" href="blog.html">
-                    <span class="menu-item-text">Блог</span>
-                </a>
-                <a class="menu-item" data-target="about">
-                    <span class="menu-item-text">О компании</span>
-                    <img src="./vendor/images/new-icons/arrow-right-menu.svg" alt="arrow-right">
-                </a>
-                <a class="menu-item" href="contacts.html">
-                    <span class="menu-item-text">Контакты</span>
-                </a>
-                <div class="dash_2"></div>
-                <div class="menu-item_content">
-                    <div class="mobile_header_location">
+            <ul class="menu-list" data-level="0">
+                <li>
+                    <a class="menu-item" data-target="services">
+                        <span class="menu-item-text">Услуги</span>
+                        <img src="./vendor/images/new-icons/arrow-right-menu.svg" alt="arrow-right">
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="reviews.html">
+                        <span class="menu-item-text">Отзывы</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="price.html">
+                        <span class="menu-item-text">Цены</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="blog.html">
+                        <span class="menu-item-text">Блог</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" data-target="about">
+                        <span class="menu-item-text">О компании</span>
+                        <img src="./vendor/images/new-icons/arrow-right-menu.svg" alt="arrow-right">
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="contacts.html">
+                        <span class="menu-item-text">Контакты</span>
+                    </a>
+                </li>
+                <li class="dash_2"></li>
+                <li class="menu-item_content">
+                    <address class="mobile_header_location">
                         <button class="header_location_button menu-item" data-target="country">
                             <svg class="icon_stroke" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19 9.75C19 15.375 12 21 12 21C12 21 5 15.375 5 9.75C5 6.02208 8.13401 3 12 3C15.866 3 19 6.02208 19 9.75Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -192,7 +196,7 @@
                             <span class="header_location_info menu-item-text">г. Екатеринбург</span>
                         </button>
                         <span class="header_info_address">ул. Радищева, д.4, офис 400В</span>
-                    </div>
+                    </address>
 
                     <div class="mobile_menu_contact">
                         <a class="header_info_phone" href="tel:+73433022018">+7 (343) 302‒20‒18</a>
@@ -211,114 +215,165 @@
                     <a href="useful-documents.html" class="button header_top_menu_button">Полезные документы</a>
                     <a href="FAQ.html" class="button header_top_menu_button">Вопросы</a>
                     <a href="vacancies.html" class="button header_top_menu_button">Вакансии</a>
-
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <div class="menu-list" data-level="1" data-parent="country" style="display:none;">
-                <div id="mobile_country_menu_item_list" class="menu_nav_context_block_items_list">
-                    <div class="menu_nav_context_block_item mobile_country_menu_item">
+                <ul id="mobile_country_menu_item_list" class="menu_nav_context_block_items_list">
+                    <li class="menu_nav_context_block_item mobile_country_menu_item">
                         <span>г. Екатеринбург</span>
                         <span class="header_info_address">ул. Радищева, д.4, офис 400В</span>
-                    </div>
-                    <div class="menu_nav_context_block_item mobile_country_menu_item">
+                    </li>
+                    <li class="menu_nav_context_block_item mobile_country_menu_item">
                         <span>г. Челябинск</span>
                         <span class="header_info_address">пр. Ленина, д.55а, этаж 13, офис 1301</span>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="menu-list" data-level="1" data-parent="services" style="display:none;">
-                <a class="menu-item" data-target="menu-bankruptcy">
-                    <span class="menu-item-text">Банкротство</span>
-                    <span class="menu-arrow"></span>
-                </a>
-                <a class="menu-item" data-target="menu-debt">
-                    <span class="menu-item-text">Списание долгов</span>
-                    <span class="menu-arrow"></span>
-                </a>
-            </div>
+            <ul class="menu-list" data-level="1" data-parent="services" style="display:none;">
+                <li>
+                    <a class="menu-item" data-target="menu-bankruptcy">
+                        <span class="menu-item-text">Банкротство</span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" data-target="menu-debt">
+                        <span class="menu-item-text">Списание долгов</span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                </li>
+            </ul>
 
-            <div class="menu-list" data-level="2" data-parent="menu-bankruptcy" style="display:none;">
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство физических лиц</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство бизнеса</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Упрощенное банкротство</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство под ключ</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство черз мфц</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство дистанционно</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство физических лиц</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство бизнеса</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Упрощенное банкротство</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство под ключ</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство черз мфц</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Банкротство дистанционно</span>
-                </a>
-            </div>
+            <ul class="menu-list" data-level="2" data-parent="menu-bankruptcy" style="display:none;">
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство физических лиц</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство бизнеса</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Упрощенное банкротство</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство под ключ</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство черз мфц</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство дистанционно</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство физических лиц</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство бизнеса</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Упрощенное банкротство</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство под ключ</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство черз мфц</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Банкротство дистанционно</span>
+                    </a>
+                </li>
+            </ul>
 
-            <div class="menu-list" data-level="2" data-parent="menu-debt" style="display:none;">
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов в банках</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Дистанционное списание долгов</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов по микрозаймам</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов по налогам</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов по долговым распискам</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов в банках</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Дистанционное списание долгов</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов по микрозаймам</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов по налогам</span>
-                </a>
-                <a class="menu-item" href="#">
-                    <span class="menu-item-text">Списание долгов по долговым распискам</span>
-                </a>
-            </div>
+            <ul class="menu-list" data-level="2" data-parent="menu-debt" style="display:none;">
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов в банках</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Дистанционное списание долгов</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов по микрозаймам</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов по налогам</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов по долговым распискам</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов в банках</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Дистанционное списание долгов</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов по микрозаймам</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов по налогам</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">
+                        <span class="menu-item-text">Списание долгов по долговым распискам</span>
+                    </a>
+                </li>
+            </ul>
 
-            <div class="menu-list" data-level="1" data-parent="about" style="display:none;">
-                <a class="menu-item" href="about.html">
-                    <span class="menu-item-text">О нас</span>
-                </a>
-                <a class="menu-item" href="news.html">
-                    <span class="menu-item-text">Новости</span>
-                </a>
-            </div>
+            <ul class="menu-list" data-level="1" data-parent="about" style="display:none;">
+                <li>
+                    <a class="menu-item" href="about.html">
+                        <span class="menu-item-text">О нас</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="news.html">
+                        <span class="menu-item-text">Новости</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
     </div>
 
@@ -346,13 +401,13 @@
                     <div class="blog_article_marker">Новости</div>
                     <p class="blog_article_text">
                         В сфере банкротства физических лиц произошли значимые изменения, которые могут повлиять на права и обязанности должников. Последние обновления в законодательстве направлены на упрощение процедуры банкротства и повышение защиты интересов граждан.
-                        <br /><br />
-                        Основные изменения:<br />
-                        &nbsp1. Упрощение процедуры подачи заявления о банкротстве. Теперь гражданам стало проще инициировать процедуру банкротства. Обновления касаются упрощения пакета документов, необходимых для подачи заявления в арбитражный суд.<br />
-                        &nbsp2. Расширение возможностей для внесудебного банкротства. Увеличен лимит задолженности, при которой возможно применение процедуры внесудебного банкротства. Это позволяет большему числу граждан избавиться от долгов без обращения в суд.<br />
-                        &nbsp3. Защита имущества должников. Внесены изменения, направленные на защиту имущества граждан от необоснованного взыскания. Теперь определённые виды имущества исключены из списка того, что может быть изъято для погашения долгов.<br />
-                        &nbsp4. Поддержка в вопросах трудоустройства. Внесены уточнения относительно влияния процедуры банкротства на трудоустройство. Граждане, проходящие процедуру банкротства, теперь имеют больше возможностей для сохранения работы и поиска новых вакансий.<br />
-                        <br /><br />
+                        <br><br>
+                        Основные изменения:<br>
+                        &nbsp;1. Упрощение процедуры подачи заявления о банкротстве. Теперь гражданам стало проще инициировать процедуру банкротства. Обновления касаются упрощения пакета документов, необходимых для подачи заявления в арбитражный суд.<br>
+                        &nbsp;2. Расширение возможностей для внесудебного банкротства. Увеличен лимит задолженности, при которой возможно применение процедуры внесудебного банкротства. Это позволяет большему числу граждан избавиться от долгов без обращения в суд.<br>
+                        &nbsp;3. Защита имущества должников. Внесены изменения, направленные на защиту имущества граждан от необоснованного взыскания. Теперь определённые виды имущества исключены из списка того, что может быть изъято для погашения долгов.<br>
+                        &nbsp;4. Поддержка в вопросах трудоустройства. Внесены уточнения относительно влияния процедуры банкротства на трудоустройство. Граждане, проходящие процедуру банкротства, теперь имеют больше возможностей для сохранения работы и поиска новых вакансий.<br>
+                        <br><br>
                         Эти изменения призваны сделать процедуру банкротства более доступной и справедливой для граждан, столкнувшихся с финансовыми трудностями. Важно быть в курсе последних обновлений, чтобы эффективно использовать свои права и возможности.
                     </p>
                 </div>
@@ -460,7 +515,7 @@
             <div class="footer_location_section">
                 <img class="footer_logo" src="./vendor/images/footer-logo.svg" alt="logo">
 
-                <div id="footer_location_button" class="footer_location_button">
+                <address id="footer_location_button" class="footer_location_button">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 9.75C19 15.375 12 21 12 21C12 21 5 15.375 5 9.75C5 6.02208 8.13401 3 12 3C15.866 3 19 6.02208 19 9.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <circle cx="12" cy="10" r="3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -471,18 +526,18 @@
                     </svg>
 
                     <div id="footer_location_context" class="menu_nav_context">
-                        <div class="menu_nav_context_block_items_list">
-                            <div class="menu_nav_context_block_item">
+                        <ul class="menu_nav_context_block_items_list">
+                            <li class="menu_nav_context_block_item">
                                 <span>г. Екатеринбург</span>
                                 <span class="header_info_address">ул. Радищева, д.4, офис 400В</span>
-                            </div>
-                            <div class="menu_nav_context_block_item">
+                            </li>
+                            <li class="menu_nav_context_block_item">
                                 <span>г. Челябинск</span>
                                 <span class="header_info_address">пр. Ленина, д.55а, этаж 13, офис 1301</span>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
-                </div>
+                </address>
 
                 <div class="footer_phone_container">
                     <a class="header_info_phone" href="tel:88000000010">8 (800) 000‒00‒10</a>
@@ -503,80 +558,86 @@
                             Компания специализируется на банкротстве физических лиц и индивидуальных предпринимателей
                         </span>
                     </div>
-                    <div class="footer_reviews">
-                        <a class="footer_review">
-                            <div class="footer_review_icon_container">
-                                <img src="./vendor/images/new-icons/social/yandex-footer-review.svg" alt="yandex-review">
-                                <span>Яндекс.карты</span>
-                            </div>
-                            <div class="footer_review_rating_container">
-                                <div class="footer_review_stars">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                    <ul class="footer_reviews">
+                        <li>
+                            <a class="footer_review">
+                                <div class="footer_review_icon_container">
+                                    <img src="./vendor/images/new-icons/social/yandex-footer-review.svg" alt="yandex-review">
+                                    <span>Яндекс.карты</span>
                                 </div>
-                                <div class="footer_review_rating">
-                                    <span class="footer_review_current_rating">4.9</span>
-                                    <span class="footer_review_max_rating">/5</span>
+                                <div class="footer_review_rating_container">
+                                    <div class="footer_review_stars">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    </div>
+                                    <div class="footer_review_rating">
+                                        <span class="footer_review_current_rating">4.9</span>
+                                        <span class="footer_review_max_rating">/5</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <span class="footer_review_rating_count">35 отзывов</span>
-                        </a>
-                        <a class="footer_review">
-                            <div class="footer_review_icon_container">
-                                <img class="footer_review_icon_2gis" src="./vendor/images/new-icons/social/2gis-footer-review.svg" alt="2gis-review">
-                            </div>
-                            <div class="footer_review_rating_container">
-                                <div class="footer_review_stars">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                <span class="footer_review_rating_count">35 отзывов</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer_review">
+                                <div class="footer_review_icon_container">
+                                    <img class="footer_review_icon_2gis" src="./vendor/images/new-icons/social/2gis-footer-review.svg" alt="2gis-review">
                                 </div>
-                                <div class="footer_review_rating">
-                                    <span class="footer_review_current_rating">4.9</span>
-                                    <span class="footer_review_max_rating">/5</span>
+                                <div class="footer_review_rating_container">
+                                    <div class="footer_review_stars">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    </div>
+                                    <div class="footer_review_rating">
+                                        <span class="footer_review_current_rating">4.9</span>
+                                        <span class="footer_review_max_rating">/5</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <span class="footer_review_rating_count">35 отзывов</span>
-                        </a>
-                        <a class="footer_review">
-                            <div class="footer_review_icon_container">
-                                <img src="./vendor/images/new-icons/social/flamp-footer-review.svg" alt="flamp-review">
-                            </div>
-                            <div class="footer_review_rating_container">
-                                <div class="footer_review_stars">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
-                                    <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                <span class="footer_review_rating_count">35 отзывов</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer_review">
+                                <div class="footer_review_icon_container">
+                                    <img src="./vendor/images/new-icons/social/flamp-footer-review.svg" alt="flamp-review">
                                 </div>
-                                <div class="footer_review_rating">
-                                    <span class="footer_review_current_rating">4.9</span>
-                                    <span class="footer_review_max_rating">/5</span>
+                                <div class="footer_review_rating_container">
+                                    <div class="footer_review_stars">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                        <img src="./vendor/images/new-icons/star.svg" alt="star">
+                                    </div>
+                                    <div class="footer_review_rating">
+                                        <span class="footer_review_current_rating">4.9</span>
+                                        <span class="footer_review_max_rating">/5</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <span class="footer_review_rating_count">35 отзывов</span>
-                        </a>
-                    </div>
+                                <span class="footer_review_rating_count">35 отзывов</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
-                <nav class="footer_menu_container">
-                    <div class="menu_nav">Услуги</div>
-                    <div class="menu_nav">Отзывы</div>
-                    <div class="menu_nav">Цены</div>
-                    <div class="menu_nav">Блог</div>
-                    <div class="menu_nav">О компании</div>
-                    <div class="menu_nav">Контакты</div>
-                    <div class="menu_nav menu_nav_personal_account">Личный кабинет</div>
-                    <div class="menu_nav">Полезные документы</div>
-                    <div class="menu_nav">Вопросы</div>
-                    <div class="menu_nav">Вакансии</div>
-                </nav>
+                <ul class="footer_menu_container">
+                    <li class="menu_nav">Услуги</li>
+                    <li class="menu_nav">Отзывы</li>
+                    <li class="menu_nav">Цены</li>
+                    <li class="menu_nav">Блог</li>
+                    <li class="menu_nav">О компании</li>
+                    <li class="menu_nav">Контакты</li>
+                    <li class="menu_nav menu_nav_personal_account">Личный кабинет</li>
+                    <li class="menu_nav">Полезные документы</li>
+                    <li class="menu_nav">Вопросы</li>
+                    <li class="menu_nav">Вакансии</li>
+                </ul>
 
                 <div class="footer_buttons_container">
                     <div class="footer_consultation_buttons">
@@ -597,9 +658,9 @@
                         </div>
                         <div class="footer_social_buttons">
                             <a href="#" target="_blank" ><img src="./vendor/images/new-icons/social/ok.svg" alt="social-ok"></a>
-                            <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/telegram.svg" alt="social"></a>
-                            <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/viber.svg" alt="social"></a>
-                            <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/vk.svg" alt="social"></a>
+                            <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/telegram.svg" alt="social-tg"></a>
+                            <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/viber.svg" alt="social-viber"></a>
+                            <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/vk.svg" alt="social-vk"></a>
                             <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/whatsapp.svg" alt="social-watsapp"></a>
                             <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/yandex.svg" alt="social-yandex"></a>
                             <a href="#" target="_blank"><img src="./vendor/images/new-icons/social/2gis.svg" alt="social-2gis"></a>
@@ -698,23 +759,23 @@
                             <i></i>
                         </div>
                         <div class="footer_menu_list_item_content">
-                            <div class="footer_payment_types">
-                                <div class="footer_payment_type">
+                            <ul class="footer_payment_types">
+                                <li class="footer_payment_type">
                                     <img src="./vendor/images/new-icons/mir.svg" alt="mir">
-                                </div>
-                                <div class="footer_payment_type">
+                                </li>
+                                <li class="footer_payment_type">
                                     <img src="./vendor/images/new-icons/visa.svg" alt="visa">
-                                </div>
-                                <div class="footer_payment_type">
+                                </li>
+                                <li class="footer_payment_type">
                                     <img src="./vendor/images/new-icons/master-card.svg" alt="master-card">
-                                </div>
-                                <div class="footer_payment_type">
+                                </li>
+                                <li class="footer_payment_type">
                                     <img src="./vendor/images/new-icons/maestro.svg" alt="maestro">
-                                </div>
-                                <div class="footer_payment_type">
+                                </li>
+                                <li class="footer_payment_type">
                                     <img src="./vendor/images/new-icons/union-pay.svg" alt="union-pay">
-                                </div>
-                            </div>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="footer_menu_list_item">
@@ -722,7 +783,7 @@
                             <span>Дополнительные офисы</span>
                             <i></i>
                         </div>
-                        <div class="footer_menu_list_item_content">
+                        <address class="footer_menu_list_item_content">
                             <div class="footer_company_details_right_side">
                                 <div class="footer_company_addition_locations">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -733,7 +794,7 @@
                                 </div>
                                 <span class="footer_company_addition_location_address">г. Челябинск, пр. Ленина , д. 55А, офис 1301</span>
                             </div>
-                        </div>
+                        </address>
                     </li>
                 </ul>
             </div>
@@ -754,28 +815,28 @@
                     </div>
                     <div class="footer_payment_types_container">
                         <h5>Способы оплаты</h5>
-                        <div class="footer_payment_types">
-                            <div class="footer_payment_type">
+                        <ul class="footer_payment_types">
+                            <li class="footer_payment_type">
                                 <img src="./vendor/images/new-icons/mir.svg" alt="mir">
-                            </div>
-                            <div class="footer_payment_type">
+                            </li>
+                            <li class="footer_payment_type">
                                 <img src="./vendor/images/new-icons/visa.svg" alt="visa">
-                            </div>
-                            <div class="footer_payment_type">
+                            </li>
+                            <li class="footer_payment_type">
                                 <img src="./vendor/images/new-icons/master-card.svg" alt="master-card">
-                            </div>
-                            <div class="footer_payment_type">
+                            </li>
+                            <li class="footer_payment_type">
                                 <img src="./vendor/images/new-icons/maestro.svg" alt="maestro">
-                            </div>
-                            <div class="footer_payment_type">
+                            </li>
+                            <li class="footer_payment_type">
                                 <img src="./vendor/images/new-icons/union-pay.svg" alt="union-pay">
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="footer_company_details_right_side">
-                    <h5>Дополнительные офисы</h5>
+                <address class="footer_company_details_right_side">
+                    <p class="sub-headline-5">Дополнительные офисы</p>
                     <div class="footer_company_addition_locations">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19 9.75C19 15.375 12 21 12 21C12 21 5 15.375 5 9.75C5 6.02208 8.13401 3 12 3C15.866 3 19 6.02208 19 9.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -784,7 +845,7 @@
                         <span class="footer_company_addition_location_country">Челябинск</span>
                     </div>
                     <span class="footer_company_addition_location_address">г. Челябинск, пр. Ленина , д. 55А, офис 1301</span>
-                </div>
+                </address>
             </div>
 
             <div class="dash"></div>

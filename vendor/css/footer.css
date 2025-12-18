@@ -409,6 +409,7 @@ footer {
     display: flex;
     gap: 110px;
     padding: 20px 0;
+    width: 100%;
 
     font-size: var(--font-caption-size);
     font-weight: var(--font-caption-weight);
@@ -500,7 +501,6 @@ footer {
 
     .footer_development_studio_section {
         flex-direction: column;
-        width: 100%;
         padding: 0;
         gap: 18px;
     }

@@ -124,6 +124,7 @@
 }
 
 .header_info_phone {
+    text-wrap: nowrap;
     font-weight: var(--font-button-weight);
     font-size: var(--font-button-size);
     line-height: var(--font-button-line-height);
@@ -167,6 +168,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
     padding: 20px 0;
     margin: 0 auto;
 }
