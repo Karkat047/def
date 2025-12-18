@@ -524,6 +524,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 10px;
         cursor: pointer;
 
         font-size: 18px;
@@ -586,5 +587,14 @@ footer {
 
     #footer_location_context .header_info_address {
         text-wrap: wrap;
+    }
+}
+
+@media (max-width: 579px) {
+    .footer_menu_container,
+    .footer_buttons_container,
+    .footer_menu_list {
+        max-width: 100%;
+        width: 100%;
     }
 }

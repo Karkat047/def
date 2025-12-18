@@ -1622,7 +1622,7 @@ address {
     padding: 20px 40px;
     border-radius: 20px;
     width: 318px;
-    height: 186px;
+    min-height: 186px;
 
     background-color: var(--color-light-gray);
     color: var(--color-dark-gray);
@@ -1871,6 +1871,7 @@ address {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    overflow: scroll;
 }
 
 .articles_item_2 img {
@@ -2047,13 +2048,17 @@ address {
     border-radius: 20px;
 }
 
+.other_questions_section_container button {
+    margin-bottom: 64px;
+}
+
 .other_questions_section_container .headline {
     margin: 114px 0 41px;
 }
 
 .other_questions_description {
     width: 462px;
-    height: 102px;
+    min-height: 102px;
     margin-bottom: 100px;
 }
 
@@ -4453,7 +4458,7 @@ address {
 
     .team_item_info {
         width: 256px;
-        height: 186px;
+        min-height: 186px;
         padding: 18px 30px;
         left: 16px;
     }
@@ -4586,6 +4591,10 @@ address {
         max-width: 664px;
         padding: 40px 20px;
         min-height: fit-content;
+    }
+
+    .other_questions_section_container button {
+        margin-bottom: 0;
     }
 
     .other_questions_section_container .headline {
